@@ -1,9 +1,9 @@
 Welcome
 
 你可能感兴趣的
-*   [TP回小游戏](https://xingye.me/game/new/index.php)
-*   [网页聊天室](https://arcxingye.github.io/utu.html?url=https://chat.getloli.com/room/@xingye)
-*   [amemei的黄油](https://amemei.github.io/utu.html?url=https://5e.fit/amemei) (Password:114514)
+*   [小游戏](https://xingye.me/game/new/index.php)
+*   [网页聊天室](http://fun.yzfwq.ml/utu.html?url=https://chat.getloli.com/room/@xingye)
+*   [amemei的黄油](http://amemei.github.io/utu.html?url=https://5e.fit/amemei) (Password:114514)
 *   [rickroll二维码获取](https://arcxingye.github.io/rr/qrcode)
 *   [短链/页面/二维码生成](https://5e.fit/)
 
@@ -16,12 +16,7 @@ Welcome
 *   [无需审核的免备广告联盟(aff)](https://affili.st/343212) 代码随便塞，直接挂别人站上都行
 
 相关主页
-*   [Github](https://github.com/arcxingye)
-*   [个人博客](https://xingye.me/)
-
-其它联系
-*   [Line群](https://line.me/R/ti/g/4aiPvAqIm3)
-*   [Telegram群](https://t.me/+tCqug8nQlXthZTZl)
+*   [个人博客](http://yzfwq.ml/)
 
 声明：
 1. 本人不参与网页聊天，出现的都是冒充

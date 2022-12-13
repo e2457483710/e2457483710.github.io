@@ -1,8 +1,14 @@
 Welcome
 
+注:本站不保证你在站外的安全!
+注:本站不保证你在站外的安全!
+注:本站不保证你在站外的安全!
+
+以下皆为非YZ链接,本站不承担法律责任
+
 你可能感兴趣的
 *   [小游戏](https://xingye.me/game/new/index.php)
-*   [网页聊天室](http://fun.yzfwq.ml/utu.html?url=https://chat.getloli.com/room/@xingye)
+*   [网页聊天室](http://amemei.github.io/utu.html?url=https://chat.getloli.com/room/@xingye)
 *   [amemei的黄油](http://amemei.github.io/utu.html?url=https://5e.fit/amemei) (Password:114514)
 *   [rickroll二维码获取](https://arcxingye.github.io/rr/qrcode)
 *   [短链/页面/二维码生成](https://5e.fit/)
@@ -16,7 +22,7 @@ Welcome
 *   [无需审核的免备广告联盟(aff)](https://affili.st/343212) 代码随便塞，直接挂别人站上都行
 
 相关主页
-*   [个人博客](http://yzfwq.ml/)
+*   [个人博客](http://xingye.me/)
 
 声明：
 1. 本人不参与网页聊天，出现的都是冒充

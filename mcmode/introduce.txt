@@ -1,0 +1,13 @@
+通过document.querySelector(id).remove();来关闭对话框
+通过open_minecraft_dialog来定义并显示对话框
+open_minecraft_dialog函数接收一个参数
+接受参数
+conf   object
+    title text 标题
+    content text 内容
+    ok_btn_text text 确定按钮文本，默认"确定"
+    cancel_btn_text text 取消按钮文本，默认"取消"
+    on_ok function 确定按钮按下后的回调函数，接收一个用于关闭对话框的ID参数
+    on_cancel function 取消按钮按下后的回调函数，接收一个用于关闭对话框的ID参数
+    isHTML boolan content中的内容是否为HTML格式，true为是，false为否
+    close_btn boolan 是否显示关闭按钮

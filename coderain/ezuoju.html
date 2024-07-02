@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      body{
+      width: 100%;
+      height: 100%;
+      }
+      canvas {
+        background-color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="bg"></canvas>
+    <script>
+      // 获取canvas
+      const canvas = document.getElementById("bg");
+
+      //获取窗口的宽高
+      const width = window.innerWidth * devicePixelRatio,
+        height = window.innerHeight * devicePixelRatio;
+
+      // 获取canvas的尺寸
+      canvas.width = width;
+      canvas.height = height;
+
+      // 获取canvas的上下文
+      const ctx = canvas.getContext("2d");
+      //字体大小
+      const fontSize = 10 * devicePixelRatio;
+      // 列宽
+      const columnWidth = fontSize;
+      // 列数
+      const columnCount = Math.floor(width / columnWidth);
+      // 每一列下一个字符是哪个字符
+      const nextChars = new Array(columnCount).fill(0);
+
+      // 画一排文字
+      function draw() {
+        ctx.fillStyle = "rgba(0,0,0,0.)";
+        ctx.fillRect(0, 0, width, height);
+        for (let i = 0; i < columnCount; i++) {
+          // 画第i列的字符
+          // 什么字符，什么颜色，字体大小，字体类型，什么位置(x,y)
+          const char = getRandomChar();
+          ctx.fillStyle = getRandomColor();
+          ctx.font = `${fontSize}px monospace`;
+          const x = columnWidth * i;
+          const index = nextChars[i];
+          const y = (index + 1) * fontSize;
+          ctx.fillText(char, x, y);
+          // 更新下一个字符的位置
+          if (y > height && Math.random() > 0.99) {
+            nextChars[i] = 0;
+          } else {
+            nextChars[i]++;
+          }
+        }
+      }
+
+      // 随机颜色
+      function getRandomColor() {
+        const fontColors = [
+          "#33b5e5",
+          "#0099cc",
+          "#aa66cc",
+          "#9933cc",
+          "#99cc00",
+          "#669900",
+          "#ffbb33",
+          "#ff8800",
+          "#ff4444",
+          "#cc0000",
+        ];
+        return fontColors[Math.floor(Math.random() * fontColors.length)];
+      }
+
+      // 随机文字
+      function getRandomChar() {
+        const str = 'console.log("Hello world")';
+        return str[Math.floor(Math.random() * str.length)];
+      }
+
+      draw();
+
+      setInterval(draw, 40);
+    </script>
+  </body>
+</html>

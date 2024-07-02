@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">-->
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title>Minecraft button style</title>
+	<link rel="stylesheet" href="style/style.css">
+	<script>
+		function prohibition_of_copying(){
+			console.log('咱就是说，按钮嘛，咱就不要复制了');
+			// 前面那行可以删掉
+			return false;;
+		}
+
+		function aaa(){
+			alert("class为minecraft的按钮会使用相应样式\n如果class中同时含有dark，则是暗色的相应样式\n如果在本示例页面的暗色样式中没有，而亮色样式中有，则意味着其暗色样式与亮色样式是相同的\nMinecraft_ui_image文件夹下的图片可以支持开发者对style进行增添补充\n\nclass为minecraft的label也会使用相应样式，此处样式生效于其子元素中的label与复选框");
+		}
+	</script>
+	<script src="script/dialog.js"></script>
+</head>
+<body style="margin: 0px;">
+	<div style="background-color: #BBBBBB;padding: 6px;">
+		<h3>亮色样式</h3>
+		<button class="minecraft" disabled>我的世界按钮样式</button>
+		<button class="minecraft">我的世界按钮样式</button>
+		<label class="minecraft">
+			<label>我的世界开关样式</label>
+			<input type="checkbox">
+		</label>
+		<label class="minecraft">
+			<label>我的世界滑动条样式</label>
+			<input type="range" class="minecraft" value="0">
+		</label>
+		<span class="minecraft">我的世界单独的滑动条样式</span>
+		<input type="range" class="minecraft" value="0">
+	</div>
+	<div style="background-color: #313233;padding: 6px;">
+		<h3 style="color: #FFFFFF;">暗色样式</h3>
+		<button class="minecraft dark">我的世界按钮样式</button>
+		<label class="minecraft dark">
+			<label>我的世界开关样式</label>
+			<input type="checkbox">
+		</label>
+		<label class="minecraft dark">
+			<label>我的世界滑动条样式</label>
+			<input type="range" class="minecraft" value="0">
+		</label>
+		<span class="minecraft dark">我的世界单独的滑动条样式</span>
+		<input type="range" class="minecraft" value="0">
+	</div>
+	<button style="margin: 6px;" class="minecraft" onclick="open_minecraft_dialog({
+		title: '介绍 Minecraft style introduce',
+		content: '<h1>我的世界样式介绍</h1>class为minecraft的按钮会使用相应样式<br />如果class中同时含有dark，则是暗色的相应样式<br />如果在本示例页面的暗色样式中没有，而亮色样式中有，则意味着其暗色样式与亮色样式是相同的<br />Minecraft_ui_image文件夹下的图片可以支持开发者对style进行增添补充<br /><br />class为minecraft的label也会使用相应样式，此处样式生效于其子元素中的label与复选框<br />另外，还可以通过' + 
+		'<iframe src=&#x22;code.html&#x22; style=&#x22;width: calc(100% - 5px);height: 70%;&#x22;></iframe>' + 
+		'的方式来打开对话框<br /><br />在源码中我定义了一个id <br />需要开发者在这里面设置点击确定按钮和取消按钮的回调函数<br />回调函数中接收一个参数 ，这个参数是用于关闭对话框的 <br />如果不设置回调函数 ，则无论按哪个按钮都相当于关闭对话框 <br />可以将这里面的id设置为任何你所设置的参数名称<br />' + 
+		'这个函数接受一个参数<h1>参数</h1>' + 
+		'conf: object (json)<br /><ul>' + 
+		'<li>.title: <strong>string</strong> 对话框标题</li>' + 
+		'<li>.content: <strong>string</strong> 对话框内容，可能是HTML或文本，具体参考下一条</li>' + 
+		'<li>.isHTML: <strong>boolan</strong> 如果为true则是HTML格式，否则是纯文本</li>' + 
+		'<li>.ok_btn_text: <strong>string</strong> 确定按钮的文本</li>' + 
+		'<li>.cancel_btn_text: <strong>string</strong> 取消按钮的文本</li>' + 
+		'<li>.on_ok: <strong>function</strong> 确定按钮的点击事件，要求接受一个参数，事后可通过<strong>[参数名称].close();</strong>关闭对话框</li>' + 
+		'<li>.on_cancel: <strong>function</strong> 取消按钮的点击事件，要求接受一个参数，事后可通过<strong>[参数名称].close();</strong>关闭对话框</li>' + 
+		'<li>.close_btn: <strong>boolan</strong> 是否启用关闭按钮，若为true则启用关闭按钮</li>' + 
+		'</ul>',
+		isHTML: true,
+		ok_btn_text: '确定',
+		cancel_btn_text: '取消',
+		// 在源码中我定义了一个id
+		// 需要开发者在这里面设置点击确定按钮和取消按钮的回调函数
+		// 回调函数中接收一个参数
+		// 这个参数是用于关闭对话框的
+		// 可以用 <参数>.close() 关闭对话框
+		// 如果不设置回调函数
+		// 则无论按哪个按钮都相当于关闭对话框
+		// 可以将id设置为任何你所设置的参数名称
+		on_ok: function(dialog){
+			alert('你点击了确定');
+			dialog.close();
+		},
+		on_cancel: function(dialog){
+			alert('你点击了取消');
+			dialog.close();
+		},
+		close_btn: true
+	});">介绍</button>
+</body>
+</html>

@@ -1,0 +1,150 @@
+{
+    "header": [
+        " *   ",
+        " *   如非需要调试，本文件可删除",
+        " *   非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.wang/faq#INFO-JSON",
+        " *   "
+    ],
+    "resources": [
+        {
+            "url": "https://wangyasai.github.io/TheMatrix/",
+            "path": "index.html",
+            "saved": true,
+            "size": 6107,
+            "children": [
+                {
+                    "url": "https://wangyasai.github.io/TheMatrix/logo.png",
+                    "path": "img/logo.png",
+                    "saved": true,
+                    "size": 1969
+                },
+                {
+                    "url": "https://wangyasai.github.io/TheMatrix/js/dat.gui.min.js",
+                    "path": "js/dat.gui.min.js",
+                    "saved": true,
+                    "size": 56992
+                },
+                {
+                    "url": "https://wangyasai.github.io/TheMatrix/js/p5.min.js",
+                    "path": "js/p5.min.js",
+                    "saved": true,
+                    "size": 1134814
+                },
+                {
+                    "url": "https://wangyasai.github.io/TheMatrix/js/p5.dom.min.js",
+                    "path": "js/p5.dom.min.js",
+                    "saved": true,
+                    "size": 18114
+                },
+                {
+                    "url": "https://wangyasai.github.io/TheMatrix/js/sketch.js",
+                    "path": "js/sketch.js",
+                    "saved": true,
+                    "size": 4217
+                },
+                {
+                    "url": "https://wangyasai.github.io/TheMatrix/fonts.css",
+                    "path": "css/fonts.css",
+                    "saved": true,
+                    "size": 3308,
+                    "children": [
+                        {
+                            "url": "https://wangyasai.github.io/TheMatrix/fonts/icomoon.eot?odez19",
+                            "path": "fonts/icomoon.eot",
+                            "saved": true,
+                            "size": 15848
+                        },
+                        {
+                            "url": "https://wangyasai.github.io/TheMatrix/fonts/icomoon.ttf?odez19",
+                            "path": "fonts/icomoon.ttf",
+                            "saved": true,
+                            "size": 15684
+                        },
+                        {
+                            "url": "https://wangyasai.github.io/TheMatrix/fonts/icomoon.woff?odez19",
+                            "path": "fonts/icomoon.woff",
+                            "saved": true,
+                            "size": 15764
+                        },
+                        {
+                            "url": "https://wangyasai.github.io/TheMatrix/fonts/icomoon.svg?odez19#icomoon",
+                            "path": "img/icomoon.svg",
+                            "saved": true,
+                            "size": 81834
+                        }
+                    ]
+                },
+                {
+                    "url": "https://wangyasai.github.io/TheMatrix/image/1.ico",
+                    "path": "1.ico",
+                    "saved": true,
+                    "size": 104820
+                }
+            ]
+        }
+    ],
+    "alias": "wangyasai-github-io-hd8ujqzl",
+    "info": {
+        "remark": [],
+        "title": "TheMatrix",
+        "domain": "wangyasai.github.io",
+        "origin": "https://wangyasai.github.io",
+        "ip": "185.199.111.153",
+        "main": "index.html",
+        "url": "https://wangyasai.github.io/TheMatrix/",
+        "totalSize": "1.46 MB",
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "cache-control": "no-cache",
+                "cookie": "",
+                "referer": "https://wangyasai.github.io/TheMatrix/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.wang/"
+            }
+        },
+        "response": {
+            "responseUrl": "https://wangyasai.github.io/TheMatrix/",
+            "redirects": [],
+            "statusCode": 200,
+            "headers": {
+                "connection": "close",
+                "content-length": "2075",
+                "server": "GitHub.com",
+                "content-type": "text/html; charset=utf-8",
+                "permissions-policy": "interest-cohort=()",
+                "last-modified": "Wed, 08 May 2019 23:30:19 GMT",
+                "access-control-allow-origin": "*",
+                "etag": "W/\"5cd3668b-16b9\"",
+                "expires": "Mon, 30 Jan 2023 14:09:23 GMT",
+                "cache-control": "max-age=600",
+                "x-proxy-cache": "MISS",
+                "x-github-request-id": "F6DE:62C1:14728B8:1B69B3E:63D7CD3B",
+                "accept-ranges": "bytes",
+                "date": "Mon, 30 Jan 2023 13:59:23 GMT",
+                "via": "1.1 varnish",
+                "age": "0",
+                "x-served-by": "cache-hnd18739-HND",
+                "x-cache": "MISS",
+                "x-cache-hits": "0",
+                "x-timer": "S1675087164.575661,VS0,VE181",
+                "vary": "Accept-Encoding",
+                "x-fastly-request-id": "ba1338a6b3c183505ffbdcdb68bf77fb8d9cb52b"
+            }
+        },
+        "time": {
+            "start": "2023-01-30T13:59:23.536Z",
+            "end": "2023-01-30T13:59:26.055Z"
+        }
+    },
+    "options": {
+        "url": "https://wangyasai.github.io/TheMatrix/",
+        "referer": "",
+        "cookies": "",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+        "formatter": [],
+        "filenameGenerator": "byType"
+    }
+}

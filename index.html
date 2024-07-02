@@ -25,7 +25,7 @@
     <li><a href="https://www.vultr.com/?ref=9281803">服务器(vultr)</a>/<a href="https://www.vultr.com/?ref=9281825-8H">领取一百美元</a></li>
     <li><a href="https://bandwagonhost.com/aff.php?aff=69393">服务器(bandwagon)网络好</a></li>
     <li>如有购买服务器需求，可考虑以上几家，国内外都有，本人也在用</li>
-    <li><a href="https://sttlink.cc/auth/register?code=KbzI">高速梯子(VPN)推荐STT机场 (邀请码KbzI)</a> 如需按量购买考虑<a href="https://direct.gfwservice.xyz/#/register?code=KXVa4jSL">(邀请码KXVa4jSL)</a></li>
+    <li><a href="https://sttlink.cc/auth/register?code=KbzI">高速tz推荐STT (邀请码KbzI)</a> 如需按量购买考虑<a href="https://direct.gfwservice.xyz/#/register?code=KXVa4jSL">(邀请码KXVa4jSL)</a></li>
     <li><a href="https://affili.st/343212">无需审核的免备广告联盟(aff)</a> 代码随便塞，直接挂别人站上都行</li>
 </ul>
 
@@ -42,14 +42,7 @@
     <li>均为国外网站/页面，遵守当地法律法规，仅供海外华人，国内访问责任自负</li>
 </ol>
 
-<!-- Google Analytics 跟踪代码 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-190316399-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-190316399-3');
-</script>
+
 
 <!-- 检测微信或QQ浏览器并提示在外部浏览器打开的脚本 -->
 <script>
@@ -59,12 +52,18 @@
     var isQQBrowser = ua.indexOf('mqqbrowser') !== -1; // 注意这里可能是 mqqbrowser 而不是 qq/
 
     if(isWeChat || isQQBrowser) {
-        alert('请复制链接并在外部浏览器中打开。');
-        // 注意：下面的 intent URL 可能不适用于所有设备或浏览器
-        // 通常，不建议使用 JavaScript 直接改变用户的浏览器行为
+        // 尝试跳转到 www.gov.cn，但请注意，这在某些环境中可能不起作用
+        // 特别是微信内置浏览器，它可能阻止页面跳转到外部URL
+        // 作为替代，您可以在这里提供一个复制链接的按钮或提示用户手动复制
+        // 但由于您的要求是直接跳转，我会先尝试这样做
+        window.location.href = 'https://www.gov.cn'; // 确保使用完整的URL
+
+        // 如果出于某种原因跳转未生效，您可以考虑添加备选方案，比如显示一个警告
+        // 但由于已经尝试跳转，这里就不加警告了
     }
 })();
 </script>
+
 
 </body>
 </html>
